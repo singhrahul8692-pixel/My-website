@@ -10,48 +10,36 @@
             text-align: center;
         }
 
-        h1 {
-            color: darkblue;
+        .box {
+            background-color: white;
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
         }
 
-        h2 {
-            color: #333;
+        img {
+            border-radius: 50%;
+            width: 150px;
         }
 
-        p {
-            font-size: 18px;
-        }
-
-        ul {
-            list-style-type: none;
-        }
-
-        li {
-            background-color: #4CAF50;
+        button {
+            background-color: orange;
             color: white;
-            margin: 10px;
             padding: 10px;
-            border-radius: 8px;
+            border: none;
+            border-radius: 5px;
         }
-    button {
-        background-color: #ff5733;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 8px;
-        font-size: 16px;
-        cursor: pointer;
-    }
-
-    button:hover {
-        background-color: #e64a19;
-    }
     </style>
-
 </head>
+
 <body>
 
+<div class="box">
+
     <h1>Welcome to My Website</h1>
+
+    <img src="https://via.placeholder.com/150">
 
     <h2>About Me</h2>
     <p>My name is Rahul. I am learning Web Development.</p>
@@ -59,15 +47,23 @@
     <h2>My Skills</h2>
     <ul>
         <li>HTML</li>
-        <li>Learning CSS</li>
+        <li>CSS</li>
     </ul>
+    <a href="mailto:rahul@example.com">
+        <button>Contact Me</button>
+
+
+    
+    </a>  
     <button onclick="showMessage()">Click Me</button>
 
-    <script>
-        function showMessage() {
-        alert("Hello, Rahul!");
-        }
-        </script>
-     
+</div>
+
+<script>
+function showMessage() {
+    alert("Hello Rahul 🚀");
+}
+</script>
+
 </body>
 </html>
